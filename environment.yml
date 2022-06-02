@@ -1,0 +1,14 @@
+name: wordcloud
+channels:
+  - conda-forge
+  - defaults
+  - plotly
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - nltk
+  - spacy
+  - gensim
+  - wordcloud
+  - textblob
